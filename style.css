@@ -1,34 +1,41 @@
 
 
-nav a{
-    float: left;
-    color: grey;
-    text-align: center;
-    padding: 12px 35px;
-    text-decoration: none;
-    font-size: 17px;
-    padding-right: 40px;
-}
-
-.active{
-    color: black;
-    font-size: 30px;
-    font-weight: bolder;
-}
-
-.login {
-    padding-left: 50px;
-}
-
-
-
-.hero{
-    display: flex;
+.container{
+    display: grid;
     align-items: center;
-    margin-top: 100px;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
 }
 
-.img{
-    height: 200px;
-    width: 300px;
+img{
+    max-width: 80%;
+    max-height: 50%;
+    margin-top: 10%;
+    margin-left: 30%;
 }
+
+h1{ 
+    margin-left: 30%;
+    font-size: 55px;
+    font-weight: 4000%;
+}
+
+p{
+    margin-left: 30%;
+    font-style: normal;
+    color: grey;
+}
+
+button{
+    margin-left: 30%;
+    color: #fff;
+    cursor: pointer;
+    font-size: 12px;
+    background-color: black;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+
+
+
+
